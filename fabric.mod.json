@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeplayers",
+  "version": "${version}",
+  "name": "FakePlayers",
+  "description": "Prototype project for lightweight client-rendered fake player visuals.",
+  "authors": ["YourName"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.example.fakeplayers.FakePlayersMod"],
+    "client": ["de.example.fakeplayers.FakePlayersClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
